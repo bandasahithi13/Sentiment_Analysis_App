@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 # ---------------- PAGE CONFIG ----------------
 
 st.set_page_config(
-    page_title="AI Sentiment Dashboard",
+    page_title=" Sentiment Dashboard",
     page_icon="🧠",
     layout="centered"
 )
@@ -21,7 +21,7 @@ vectorizer = pickle.load(open("vectorizer .pkl", "rb"))
 st.sidebar.title("📌 About")
 
 st.sidebar.info("""
-AI-based Sentiment Analysis Dashboard
+Sentiment Analysis Dashboard
 
 Model:
 - TF-IDF
@@ -36,7 +36,7 @@ Features:
 
 # ---------------- TITLE ----------------
 
-st.title("🧠 AI Sentiment Analysis Dashboard")
+st.title("🧠 Sentiment Analysis Dashboard")
 
 st.write("""
 Analyze customer reviews using NLP and Machine Learning.
